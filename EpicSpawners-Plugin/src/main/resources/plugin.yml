@@ -1,0 +1,50 @@
+name: ${project.parent.name}
+description: ${project.parent.description}
+version: ${project.version}
+api-version: 1.13
+
+main: com.craftaro.epicspawners.EpicSpawners
+softdepend:
+  - ASkyBlock
+  - BentoBox
+  - CMI
+  - CoreProtect
+  - DecentHolograms
+  - EpicAnchors
+  - Factions
+  - GriefPrevention
+  - Holograms
+  - HolographicDisplays
+  - Kingdoms
+  - Lands
+  - PlaceholderAPI
+  - PlayerPoints
+  - PlotSquared
+  - RedProtect
+  - ShopGUIPlus
+  - SkyBlock
+  - StackMob
+  - Towny
+  - UltimateClaims
+  - UltimateStacker
+  - USkyBlock
+  - Vault
+  - WorldGuard
+
+author: Craftaro
+website: ${project.parent.url}
+
+commands:
+  es:
+    description: I have no idea.
+    default: true
+    aliases: [ EpicSpawners ]
+    usage: /<command> [reload]
+  SpawnerStats:
+    description: I have no idea.
+    default: false
+    usage: /<command> [reload]
+  SpawnerShop:
+    description: I have no idea.
+    default: false
+    usage: /<command> [reload]
